@@ -1,0 +1,80 @@
+.container .nav {
+  padding: 10px;
+}
+
+.menus {
+  display: flex;
+  list-style: none;
+  column-gap: 10px;
+  margin: 0;
+  /* position: absolute; */
+}
+.menu-items {
+  font-size: 14px;
+  position: relative;
+}
+
+.menu-items a {
+  text-decoration: none;
+  text-align: left;
+  padding: 0.7rem 1rem;
+  /* color: black; */
+  /* color: white; */
+  padding: -0.3rem;
+  font-size: inherit;
+}
+.menu-items a:hover,
+.menu-items .title:hover {
+  background-color: #f2f2f2;
+  padding: 2px;
+}
+li.colorssss:hover{
+  color: blue;
+}
+.listdown {
+  list-style: none;
+  display: none;
+  width: 200px;
+  position: absolute;
+  background-color: white;
+  top: 105%;
+}
+.listdown .listdown-menu {
+  padding: 10px;
+}
+.listdown .listdown-menu button {
+  border: none;
+  outline: none;
+  background: none !important;
+  margin-bottom: 5px;
+}
+
+.listdown .listdown-submenu {
+  position: absolute;
+}
+
+.listdown.show {
+  display: block;
+}
+.menu-items a {
+  position: absolute;
+  left: 67%;
+  color: black;
+}
+
+.nav {
+  background-color: black;
+  padding: 10px;
+}
+/* li.menu-items{
+  color: red;
+} */
+.menu-items .colorssss{
+  color:white;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.listdown.show .colorssss{
+  color:black;
+}

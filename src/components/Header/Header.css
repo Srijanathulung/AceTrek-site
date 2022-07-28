@@ -1,0 +1,27 @@
+.whatsapp{
+    width: 20px;
+}
+.top-header{
+    background-color: #393939;
+    padding: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+}
+.location{
+    color: white;
+}
+.span{
+    color: white;
+}
+.svg-inline--fa {
+    padding: 2px;
+}
+.slogan{
+    margin-top: 50px;
+}
+
+
