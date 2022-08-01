@@ -1,0 +1,19 @@
+.carousel .slide img{
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    height: 320px;
+    object-fit: cover;
+    
+}
+.carousel .control-dots{
+    padding: 15px;
+}
+
+.carousel .control-dots .dot{
+    width:20px;
+    height:7px;
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background:none;
+}
