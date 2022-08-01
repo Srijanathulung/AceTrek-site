@@ -56,11 +56,11 @@ li.colorssss:hover{
 .listdown.show {
   display: block;
 }
-.menu-items a {
+/* .menu-items a {
   position: absolute;
   left: 67%;
   color: black;
-}
+} */
 
 .nav {
   background-color: black;
@@ -77,4 +77,5 @@ li.colorssss:hover{
 
 .listdown.show .colorssss{
   color:black;
+  font-weight: 300;
 }

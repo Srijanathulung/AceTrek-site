@@ -7,9 +7,12 @@ const Navbar = () => {
   return (
     <ul className='menus'>
         {destination.map((menu,index)=>{
-            const depthLevel=0;
-            return(
-                <MenuItems items={menu} key={index} depthLevel={depthLevel}/>
+          console.log('juj', menu);
+          const depthLevel=0;
+          return(
+            <>
+            <MenuItems items={menu} key={index} depthLevel={depthLevel}/>
+            </>
             )
         })}
     </ul>

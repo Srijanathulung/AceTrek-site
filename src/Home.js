@@ -8,6 +8,7 @@ const Home = () => {
       <Header />
       <div className="container-fluid nav ">
         <Navbar />
+        
       </div>
     </div>
   );

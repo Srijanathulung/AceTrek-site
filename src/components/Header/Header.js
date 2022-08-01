@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Dropdown from "../Dropdown/Dropdown";
-import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (

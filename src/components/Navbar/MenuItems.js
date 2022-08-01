@@ -1,6 +1,7 @@
 import React from 'react'
 import ListDown from '../Navbar/Listdown';
 import {useState,useEffect,useRef} from 'react';
+import {Link}  from 'react-router-dom';
 
 const MenuItems = ({items,depthLevel}) => {
     const [listdown,setListdown]=useState(false);
@@ -35,13 +36,15 @@ const MenuItems = ({items,depthLevel}) => {
             {/* <button type="button"
             onClick={() => setListdown((prev) => !prev)}
             > */}
-            <li className='colorssss' >
-                
-                {items.title}{" "}
+            <div className='colorssss' >
+               <Link to={`/country/${items.id}`}> 
+            {/* {items.title}{" "} */}
+               {items.title}{" "}
+               </Link> 
 
                 {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
             {/* </button> */}
-            </li>
+            </div>
             <ListDown submenus={items.submenu} listdown={listdown} depthLevel={depthLevel}/>
             </>
         ):(
