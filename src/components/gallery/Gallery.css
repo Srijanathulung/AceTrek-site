@@ -7,7 +7,7 @@
     
 }
 .carousel .control-dots{
-    padding: 15px;
+    padding: 230px;
 }
 
 .carousel .control-dots .dot{
@@ -16,4 +16,44 @@
 }
 .carousel.carousel-slider .control-arrow:hover {
     background:none;
+}
+
+/* coverContent style css */
+
+.col-6 {
+    color:white;
+    text-align: left;
+    padding: 30px;
+}
+.col-3{
+    color: white;
+    text-align: left;
+    padding:35px;
+}
+.cover-content{
+    background-color: #393939;
+}
+.btn{
+    color: white;
+    border: none;
+}
+.col-3 .last{
+    text-align: left;
+}
+.container .cover-content .span-color{
+    color:green;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    padding: 15px;
+}
+
+.fa-solid, .fas {
+    padding: 15px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }

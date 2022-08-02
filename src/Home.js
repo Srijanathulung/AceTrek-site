@@ -7,9 +7,9 @@ const Home = () => {
     <div className="container">
       <Header />
       <div className="container-fluid nav ">
-        <Navbar />
-        
+        <Navbar /> 
       </div>
+      
     </div>
   );
 };

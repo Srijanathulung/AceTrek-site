@@ -4,6 +4,7 @@ import CountryComponent from './components/CountryComponent';
 import './App.css';
 import { Routes,Route } from 'react-router-dom';
 import Gallery from './components/gallery/Gallery';
+import Hero from './HeroSection/Hero';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/country/:id' element={<CountryComponent/>} />
     </Routes>
     <Gallery/>
+    <Hero/>
 
   </>
    
