@@ -3,11 +3,11 @@
     text-align: left;
     padding: 30px;
 }
-.col-3{
+/* .col-3{
     color: white;
     text-align: left;
     padding:35px;
-}
+} */
 .cover-content{
     background-color: #393939;
 }
@@ -15,12 +15,12 @@
     color: white;
     border: none;
 }
-.col-3 .last{
+/* .col-3 .last{
     text-align: left;
-}
-.cover-content.col-3 .span{
+} */
+/* .cover-content.col-3 .for-span .greencolor{
     color:green
-}
+} */
 
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";

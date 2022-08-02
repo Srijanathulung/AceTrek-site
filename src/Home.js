@@ -4,7 +4,7 @@ import Navbar from "../src/components/Navbar/Navbar";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Header />
       <div className="container-fluid nav ">
         <Navbar /> 
