@@ -185,6 +185,7 @@ class Gallery extends React.Component {
             <div className="cover-content">
               <div className="row">
                 <div className="col-6 ">
+                  <div className="gallery-first">
                   <h1>China</h1>
                   <p>
                     Get the most scenic and iconic helicopter ride from
@@ -193,6 +194,8 @@ class Gallery extends React.Component {
                   </p>
                   <a href="#">Learn More</a>
                 </div>
+                  </div>
+                  
                 <div className="col-3 ">
                   <div className="gallery">
                     <span className="span-color">Go on 22 days trip for</span>
