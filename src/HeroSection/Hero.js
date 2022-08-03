@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header';
 import './hero.css';
 import Trip from './TripItem/Trip';
+import Modal from '../components/modal/Modal';
 
 const Hero = () => {
   return (
