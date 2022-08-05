@@ -5,6 +5,7 @@ import './App.css';
 import { Routes,Route } from 'react-router-dom';
 import Gallery from './components/gallery/Gallery';
 import Hero from './HeroSection/Hero';
+import AboutTestomonial from './components/testimonial/AboutTestomonial';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     </Routes>
     <Gallery/>
     <Hero/>
+    <AboutTestomonial/>
 
   </>
    

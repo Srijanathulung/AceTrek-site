@@ -8,7 +8,7 @@ import Modal from "../../components/modal/Modal";
 // import CheckIcon from '@mui/material-icons/Check';
 // import 'tippy.js/dst/tippy.css';
 
-const Trip = () => {
+const Trip = ({title}) => {
   return (
     <>
       <div className="trip-item_wrapper">

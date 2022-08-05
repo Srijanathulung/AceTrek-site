@@ -1,0 +1,33 @@
+.about-testomonial{
+    background-color: #f4f4f4;
+}
+.about-testomonial .site-name{
+    margin-bottom: 100px;
+    line-height: 1.3;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.read-more-read-less button.read-more-read-less-button{
+    color:#3EA3DB;
+    background-color: none;
+    border-color: #3EA3DB;
+    padding: 8px 34px 8px 34px;
+    border:1px solid;
+    margin-bottom: 25px;
+
+}
+.read-more-read-less button.read-more-read-less-button:hover{
+    color:#2c83b3;
+    border-color: #2c83b3;
+    transition: all .3s ease;
+}
+
+.container .content{
+    background-color: #f4f4f4;
+    padding: 50px 100px 50px 100px;
+}
+.container .about-content{
+
+    background-color: #f4f4f4;
+}
