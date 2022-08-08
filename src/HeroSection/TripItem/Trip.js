@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Freedom from "../../assets/freedom.jpeg";
 import Modal from "../../components/modal/Modal";
+import ToolTip from "./ToolTip";
 // import ReactTooltip from "react-tooltip";
 // import CheckIcon from '@mui/material-icons/Check';
 // import 'tippy.js/dst/tippy.css';
@@ -30,12 +31,11 @@ const Trip = ({title}) => {
 
                 <Card.Img variant="top" src={Freedom} alt="feel freedom" />
                 {/* <Tippy content='i am tooltip'> */}
-                <button className="tooltip-btn" data-tip data-for="registerTip">
+               
                   {/* <CheckIcon /> */}
-                  <i class="fa fa-check" aria-hidden="true"></i>
-                  ALL DEPARTURE GURANTEED
-                </button>
-
+                 
+                  <ToolTip/>
+                
                
 
                 {/* </Tippy> */}

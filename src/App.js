@@ -19,7 +19,6 @@ function App() {
     <Gallery/>
     <Hero/>
     <AboutTestomonial/>
-
   </>
    
   )

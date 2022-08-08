@@ -2,6 +2,7 @@ import React from "react";
 import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import './FormValidation.css';
+import CountrySelector from "./CountrySelector";
 
 const FormValidation = () => {
   const validationSchema = Yup.object({
@@ -30,7 +31,6 @@ const FormValidation = () => {
     <Formik
       initialValues={initialValues}
       validationSchema={validationSchema}
-      //yoo bhujihana sodhnu parcha
       onSubmit={async (values, { resetForm }) => {
         await onSubmit(values);
         resetForm();
@@ -53,7 +53,7 @@ const FormValidation = () => {
 
           {/* for email */}
 
-          <div className="field">
+          <div className="field email">
             <div className="control">
               <Field
                 name="email"
@@ -65,15 +65,16 @@ const FormValidation = () => {
             </div>
           </div>
           {/* for nationality */}
-<div className="samerow">
-          <div className="field">
-            <div className="control">
-              <Field
+<div className="samerow d-flex justify-content-between">
+          <div className="field col-lg-6">
+            <div className="control nationality">
+              {<CountrySelector/>}
+              {/* <Field
                 name="nationality"
                 type="text"
                 className="input"
                 placeholder="Nationality"
-              />
+              /> */}
               <ErrorMessage name="nationality" render={renderError} />
             </div>
           </div>

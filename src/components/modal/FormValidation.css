@@ -1,12 +1,12 @@
 input.input{
     width: 100%;
-    border-color: gray;
-    margin-top: 20px;
+    border-color:1px solid rgba(0,0,0,.2);;
+   
 }
-.samerow{
+/* .samerow{
     display: flex;
     justify-content: space-between;
-}
+} */
 button.button.is-primary{
     background: #262626;
     box-shadow: none;
@@ -27,4 +27,7 @@ button.button.is-primary:hover{
 
 p.help.is-danger{
 color: red;
+}
+.field{
+    margin-bottom: 20px;
 }
