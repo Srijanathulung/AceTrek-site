@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "./Form";
+import FormValidation from './FormValidation';
 
 const Modal = () => {
   return (
@@ -25,7 +25,8 @@ const Modal = () => {
           </div>
 
           <div class="modal-body">
-            <Form />
+            
+            <FormValidation />
           </div>
 
           {/* <div class="modal-footer">
