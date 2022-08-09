@@ -1,0 +1,27 @@
+/* img {
+  width: 100%;
+} */
+
+.modalvideoimage {
+    width: 100%;
+
+}
+.video{
+    background-color: #f4f4f4;
+    position: relative;
+}
+.video .coverimage{
+    position: relative;
+    opacity: 0.7;
+}
+.paragraphofimage{
+position: absolute;
+color:white;
+top: 55%;
+left: 25%;
+font-size: large;
+font-weight: bold;
+}
+div.imageoverlay{
+    background-color: black;
+}

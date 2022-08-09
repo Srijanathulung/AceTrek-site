@@ -83,6 +83,7 @@ cursor: pointer;
 /* modal design and css */
 .modal{
   background-color: #000;
+  z-index: 9999999
 
 }
 
@@ -93,7 +94,9 @@ cursor: pointer;
   z-index: 9999;
 }
 
-
+.col-6.trip-item{
+  width: 90%;
+}
 
 
 

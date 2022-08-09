@@ -9,14 +9,14 @@ function ToolTip() {
       The trip in this category has departure dates all year round. All the dates are guaranteed to run.
     </Tooltip>
   );
-
+  
   return (
     <OverlayTrigger
-      placement="top"
-      delay={{ show: 250, hide: 400 }}
-      overlay={renderTooltip}
+    placement="top"
+    delay={{ show: 250, hide: 400 }}
+    overlay={renderTooltip}
     >
-      <Button variant="success">  <i class="fa fa-check" aria-hidden="true"></i>ALL DEPARTURE GURANTEED</Button>
+      <Button variant="success">  <i class="fa fa-check" aria-hidden="true"></i>"All departure guranteed"</Button>
     </OverlayTrigger>
   );
 }

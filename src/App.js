@@ -6,6 +6,8 @@ import { Routes,Route } from 'react-router-dom';
 import Gallery from './components/gallery/Gallery';
 import Hero from './HeroSection/Hero';
 import AboutTestomonial from './components/testimonial/AboutTestomonial';
+import VideoContainer from './VideoModal/VideoContainer';
+import TripAdvisor from './Advisor/TripAdvisor';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
     <Gallery/>
     <Hero/>
     <AboutTestomonial/>
+  <VideoContainer/>
+  <TripAdvisor/>
   </>
    
   )
