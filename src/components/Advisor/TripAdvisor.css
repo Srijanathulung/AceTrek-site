@@ -1,40 +1,30 @@
 .tripadvisor {
   background-color: #f4f4f4;
+}
+.advisor_title{
+  text-align: center;
+  margin-top: 40px;
+}
+.trip-advisor{
+  padding: 30px;
+}
+h3 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid rgba(57, 57, 57, 0.3); 
+  line-height: 0.2em;
+} 
 
+h3 span { 
+   background:#f4f4f4; 
+   padding:0 10px; 
+}
+p.advisor{
+  text-align: center;
+  padding: 20px;
 }
 
-  /* .heading-title {
-    text-align: center;
-    font-size: 2rem;
-    padding: 0 35px;
-    position: relative;
-  }
-   */
-/* h3{
+
+
+ 
   
-margin-bottom: 50px;
-    text-align: center;
-    padding: 50px;
-}
-h3:before {
-  border-top: 1px solid rgba(57, 57, 57, 0.3);
-  border-bottom: 1px solid rgba(57, 57, 57, 0.3);
-  content: " ";
-  display: block;
-  width: 20%;
-  height: 2px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-}
-h3:after {
-  border-top: 1px solid rgba(57, 57, 57, 0.3);
-  border-bottom: 1px solid rgba(57, 57, 57, 0.3);
-  content: " ";
-  display: block;
-  width: 20%;
-  height: 2px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-} */
