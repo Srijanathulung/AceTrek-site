@@ -6,7 +6,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Modal from "../../components/modal/Modal";
 import ToolTip from "./ToolTip";
 
-const Trip = ({ imgsrc, title }) => {
+const Trip = ({ imgsrc, title, tripcode, price, Text }) => {
   // console.log(props)
   return (
     <>
@@ -27,24 +27,19 @@ const Trip = ({ imgsrc, title }) => {
                   </div>
 
                   <Card.Img variant="top" src={imgsrc} alt="feel freedom" />
-                  <ToolTip/>
-
-                 
-                  
+                  {/* <ToolTip /> */}
                 </div>
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
-                  <Card.Text>
-                    Enjoy an exciting journey across the Khumbu region's trails
-                    with the stunning vistas of mountain peaks and the ...
-                  </Card.Text>
+                  <Card.Text>{Text}</Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
                   <ListGroup.Item>
-                    <span>Trip Code:</span> ATH11422
+                    <span>Trip Code:</span> {tripcode}
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <span>Price: </span>$1,450 pp
+                    <span>Price: </span>
+                    {price}
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <span>Trip Level</span>:{" "}

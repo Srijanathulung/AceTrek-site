@@ -7,8 +7,7 @@ import Gallery from './components/gallery/Gallery';
 import Hero from './HeroSection/Hero';
 import AboutTestomonial from './components/testimonial/AboutTestomonial';
 import VideoContainer from './VideoModal/VideoContainer';
-import TripAdvisor from './Advisor/TripAdvisor';
-
+import TripAdvisor from './components/Advisor/TripAdvisor';
 function App() {
   return (
   <>
