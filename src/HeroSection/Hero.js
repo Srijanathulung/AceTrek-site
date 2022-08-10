@@ -14,9 +14,9 @@ const Hero = () => {
     <div className="container hero-section mt-5">
       <Header />
       <div className="trips-four-items d-flex">
-        <div className="row trippostion">
-          <div className="col-md-6">
-            {Tripobj.map((tripData) => (
+        <div className="row">
+          {Tripobj.map((tripData) => (
+            <div className="col-lg-6">
               <Trip
                 imgsrc={tripData.imgsrc}
                 title={tripData.title}
@@ -24,9 +24,10 @@ const Hero = () => {
                 tripcode={tripData.tripCode}
                 price={tripData.price}
                 Text={tripData.text}
+                tooltip={tripData.toolTip}
               />
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

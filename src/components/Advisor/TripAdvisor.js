@@ -4,7 +4,10 @@ import './TripAdvisor.css';
 const TripAdvisor = () => {
   return (
     <div className=' container-fluid tripadvisor'>
-        <h3>TRIP ADVISOR</h3>
+      <div className='row'>
+
+        <h3 className='heading_title'>TRIP ADVISOR</h3>
+      </div>
     </div>
   )
 }

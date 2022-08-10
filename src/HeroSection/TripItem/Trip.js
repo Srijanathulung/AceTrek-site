@@ -6,7 +6,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Modal from "../../components/modal/Modal";
 import ToolTip from "./ToolTip";
 
-const Trip = ({ imgsrc, title, tripcode, price, Text }) => {
+const Trip = ({ imgsrc, title, tripcode, alt,price, Text,tooltip }) => {
   // console.log(props)
   return (
     <>
@@ -26,8 +26,8 @@ const Trip = ({ imgsrc, title, tripcode, price, Text }) => {
                     </button>
                   </div>
 
-                  <Card.Img variant="top" src={imgsrc} alt="feel freedom" />
-                  {/* <ToolTip /> */}
+                  <Card.Img variant="top" src={imgsrc} alt={alt} />
+                  <ToolTip title={tooltip.tiptitle} description={tooltip.tipDetail} icon={tooltip.icon} bgcolor={tooltip.className}/>
                 </div>
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>

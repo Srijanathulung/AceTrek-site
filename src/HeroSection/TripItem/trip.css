@@ -2,12 +2,14 @@
 .card-img-top {
   position: relative;
 }
+
 .tooltip-btn {
   border: none;
-  background-color: green;
   color: white;
   position: absolute;
-  right: 10px;
+  top: 0px;
+  right: 0px;
+  z-index: 9999;
 }
 /* .tooltip-content{
     position: fixed;
@@ -87,12 +89,12 @@ cursor: pointer;
 
 }
 
-.btn.btn-success{
+/* .tooltip-btn{
   position: absolute;
   top: 0px;
   right: 0px;
   z-index: 9999;
-}
+} */
 
 .col-6.trip-item{
   width: 90%;
