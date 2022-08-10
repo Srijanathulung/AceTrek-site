@@ -3,9 +3,9 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className='section-header container'>
+    <div className='section-header container-lg'>
         <div className='row'>
-            <h2 className='heading-title'>OUR BEST SELLERS 2022</h2>
+            <h2 className='heading-title'><span>OUR BEST SELLERS 2022</span></h2>
         </div>
     </div>
   )

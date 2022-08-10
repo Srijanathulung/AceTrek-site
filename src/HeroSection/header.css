@@ -4,25 +4,17 @@
   padding: 0 35px;
   position: relative;
 }
-h2:before {
-  border-top: 1px solid rgba(57, 57, 57, 0.3);
-  border-bottom: 1px solid rgba(57, 57, 57, 0.3);
-  content: " ";
-  display: block;
-  width: 20%;
-  height: 2px;
-  position: absolute;
-  left: 0;
-  top: 50%;
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid rgba(57, 57, 57, 0.3); 
+  line-height: 0.2em;
+} 
+
+h2 span { 
+   background:#f4f4f4; 
+   padding:0 10px; 
 }
-h2:after {
-  border-top: 1px solid rgba(57, 57, 57, 0.3);
-  border-bottom: 1px solid rgba(57, 57, 57, 0.3);
-  content: " ";
-  display: block;
-  width: 20%;
-  height: 2px;
-  position: absolute;
-  right: 0;
-  top: 50%;
+.section-header{
+  padding: 30px;
 }
