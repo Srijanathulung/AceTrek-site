@@ -26,7 +26,7 @@ const Trip = ({ imgsrc, title, tripcode, alt,price, Text,tooltip }) => {
                     </button>
                   </div>
 
-                  <Card.Img variant="top" src={imgsrc} alt={alt} />
+                  <Card.Img variant="top" src={imgsrc} alt={alt} height='400px'  />
                   <ToolTip title={tooltip.tiptitle} description={tooltip.tipDetail} icon={tooltip.icon} bgcolor={tooltip.className}/>
                 </div>
                 <Card.Body>
