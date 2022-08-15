@@ -1,81 +1,34 @@
-.container .nav {
-  padding: 10px;
+ul .dropdown-menu{
+    border-radius: 5px;
+}
+ul .dropdown-menu a{
+    font-family: sans-serif;
+    font-weight: 400;
+   
+    color: #191919;
+}
+ul .dropdown-menu a:hover{
+    color: blue;
+    background-color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: blue;
+    background-color: #ffff;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    color: #fff;
 }
 
-.menus {
-  display: flex;
-  list-style: none;
-  column-gap: 10px;
-  margin: 0;
-  /* position: absolute; */
-}
-.menu-items {
-  font-size: 14px;
-  position: relative;
-}
-
-.menu-items a {
-  text-decoration: none;
-  text-align: left;
-  padding: 0.7rem 1rem;
-  /* color: black; */
-  color: white;
-  padding: -0.3rem;
-  font-size: inherit;
-}
-.menu-items a:hover,
-.menu-items .title:hover {
-  background-color: #f2f2f2;
-  padding: 2px;
-}
-/* li.colorssss:hover{
-  color: blue;
+/* .dropdown-menu{.dropdown-item}  a:hover{
+    color:rgba(10, 10, 184, 0.884);
+    background-color: red;
 } */
-menu-items .title{
-  color: black;
-}
- 
-.listdown {
-  z-index: 100;
-  min-width: 350px;
-  list-style: none;
-  display: none;
-  width: 200px;
-  position: absolute;
-  background-color: white;
-  top: 105%;
-}
-.listdown .listdown-menu {
-  padding: 10px;
-}
-.listdown .listdown-menu button {
-  border: none;
-  outline: none;
-  background: none !important;
-  margin-bottom: 5px;
-}
-
-.listdown .listdown-submenu {
-  position: absolute;
-}
-
-.listdown.show {
-  display: block;
-}
-/* .menu-items a {
-  position: absolute;
-  left: 67%;
-  color: black;
+/* a:hover{
+    background-color:#ffff;
+    color:rgba(10, 10, 184, 0.884);
 } */
 
-.nav {
-  background-color: black;
-  padding: 10px;
+li.nav-item .dropdown{
+    font-weight: 900;
 }
-
-.menu-items .colorssss{
-  color: black;
-  font-size: medium;
-  font-weight: 600;
-}
-

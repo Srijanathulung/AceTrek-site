@@ -1,15 +1,13 @@
 import Header from "./components/Header/Header";
 import React from "react";
-import Navbar from "../src/components/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="container-fluid">
       <Header />
-      <div className="container-fluid nav ">
-        <Navbar /> 
-      </div>
-      
+      <Navbar/>
     </div>
   );
 };

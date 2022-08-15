@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import CountryComponent from './components/CountryComponent';
 import './App.css';
-import { Routes,Route } from 'react-router-dom';
+// import { Routes,Route } from 'react-router-dom';
 import Gallery from './components/gallery/Gallery';
 import Hero from './HeroSection/Hero';
 import AboutTestomonial from './components/testimonial/AboutTestomonial';
@@ -14,9 +14,9 @@ function App() {
    <div className="App">
       <Home/>
     </div>
-    <Routes>
+    {/* <Routes>
       <Route path='/country/:id' element={<CountryComponent/>} />
-    </Routes>
+    </Routes> */}
     <Gallery/>
     <Hero/>
     <AboutTestomonial/>
