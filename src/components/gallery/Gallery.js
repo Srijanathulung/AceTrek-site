@@ -23,7 +23,7 @@ class Gallery extends React.Component {
             />
             <div className="cover-content">
               <div className="row">
-                <div className="col-6 ">
+                <div className=" col-6 ">
                   <h1>Annapurna Base Camp</h1>
                   <p>
                     Get the most scenic and iconic helicopter ride from
@@ -32,7 +32,7 @@ class Gallery extends React.Component {
                   </p>
                   <a href="#">Learn More</a>
                 </div>
-                <div className="col-3 ">
+                <div className="col-3  ">
                   <div className="gallery">
                     <span className="span-color">Go on 22 days trip for</span>
                   </div>
@@ -45,10 +45,10 @@ class Gallery extends React.Component {
                 </div>
 
                 <div className="col-3 last">
-                  <div>
+                  <div className="">
                     <i class="fa-solid fa-mountain"></i> 3050m/18225feet
                   </div>
-                  <div>
+                  <div className="">
                     {" "}
                     <i class="fa-brands fa-hive"></i>Strenous{" "}
                   </div>

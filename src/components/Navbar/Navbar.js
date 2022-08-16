@@ -27,9 +27,9 @@ const Navbar = () => {
             Bhutan
           </a>
           <ul className="dropdown-menu" aria-labelledby="bhutan">
-          <li><a className="dropdown-item" href="#">Trekking</a></li>
-            <li><a className="dropdown-item" href="#">climbing</a></li>
-            <li><a className="dropdown-item" href="#">cultural tour and sightseeing</a></li>
+          <li><a className="dropdown-item"  href="#">Trekking</a></li>
+            <li><a className="dropdown-item"  href="#">climbing</a></li>
+            <li><a className="dropdown-item"  href="#">cultural tour and sightseeing</a></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
